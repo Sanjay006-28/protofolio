@@ -1,14 +1,16 @@
+const base = import.meta.env.BASE_URL;
+
 const endpoints = {
-  navbar: 'profile/navbar.json',
-  routes: 'profile/routes.json',
-  home: 'profile/home.json',
-  social: 'profile/social.json',
-  about: 'profile/about.json',
-  skills: 'profile/skills.json',
-  education: 'profile/education.json',
-  experiences: 'profile/experiences.json',
-  projects: 'profile/projects.json',
-  achievements: 'profile/achievements.json',
+  navbar: `${base}profile/navbar.json`,
+  routes: `${base}profile/routes.json`,
+  home: `${base}profile/home.json`,
+  social: `${base}profile/social.json`,
+  about: `${base}profile/about.json`,
+  skills: `${base}profile/skills.json`,
+  education: `${base}profile/education.json`,
+  experiences: `${base}profile/experiences.json`,
+  projects: `${base}profile/projects.json`,
+  achievements: `${base}profile/achievements.json`,
 };
 
 export default endpoints;
