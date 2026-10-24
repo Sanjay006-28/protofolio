@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network": "github",
+            "href": "https://github.com/Sanjay006-28"
+        },
+        {
+            "network": "linkedin",
+            "href": "https://www.linkedin.com/in/sanjaydn/"
+        },
+        {
+            "network": "leetcode",
+            "href": "https://leetcode.com/u/sanjay006-28/"
+        },
+        {
+            "network": "email",
+            "href": "mailto:sanjaydn28@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "achievements": [
+        {
+            "type": "achievement",
+            "icon": "🥈",
+            "title": "Second Place — Battle of Bytes Hackathon",
+            "subtitle": "Alliance School of Advanced Computing × GDG on Campus, Alliance University",
+            "detail": "Secured second place among 36 teams (123 students) in an internal hackathon organised by the Alliance School of Advanced Computing in collaboration with GDG on Campus at Alliance University.",
+            "date": "2024"
+        },
+        {
+            "type": "achievement",
+            "icon": "🏅",
+            "title": "Elite + Silver · NPTEL Introduction to Machine Learning",
+            "subtitle": "IIT Kharagpur · NPTEL",
+            "detail": "Awarded Elite with Silver distinction, placing in the Top 1% of learners. Score: 85%. Completed the 12-week NPTEL online certification in Introduction to Machine Learning offered by IIT Kharagpur.",
+            "date": "July – September 2025",
+            "url": "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs149/Course/NPTEL25CS149S23210487709180689.pdf"
+        },
+        {
+            "type": "achievement",
+            "icon": "🌐",
+            "title": "HackFest 2.0 — Global Hackathon Participant",
+            "subtitle": "GDG Cloud New Delhi · 2026",
+            "detail": "Participated in HackFest 2.0, a global hackathon organised by GDG Cloud New Delhi in 2026.",
+            "date": "2026"
+        },
+        {
+            "type": "achievement",
+            "icon": "🏆",
+            "title": "Runner-Up — Taluk-Level Kabaddi Competition",
+            "subtitle": "Kolar District, Karnataka",
+            "detail": "Secured runner-up position in a taluk-level kabaddi competition.",
+            "date": ""
+        }
+    ],
+    "certifications": [
+        {
+            "provider": "NPTEL / IIT Kharagpur",
+            "title": "Introduction to Machine Learning",
+            "detail": "Elite + Silver · Top 1% · Score: 85%",
+            "period": "July – September 2025",
+            "credentialId": "NPTEL25CS149S23210487709180689",
+            "url": "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs149/Course/NPTEL25CS149S23210487709180689.pdf"
+        },
+        {
+            "provider": "DeepLearning.AI & Stanford Online",
+            "title": "Machine Learning Specialization",
+            "detail": "Instructor: Andrew Ng · Supervised & Unsupervised Learning, Advanced Algorithms & Recommender Systems",
+            "period": "September 10, 2026",
+            "credentialId": "N82ZXF7ZBWWS",
+            "url": "https://www.coursera.org/account/accomplishments/specialization/N82ZXF7ZBWWS"
+        },
+        {
+            "provider": "Google Cloud",
+            "title": "Google Cloud Cybersecurity Specialization",
+            "detail": "Cloud Security Principles, Risk Management, Threat Detection & Incident Response",
+            "period": "March 26, 2026",
+            "credentialId": "VAKZUKD63XQI",
+            "url": "https://www.coursera.org/account/accomplishments/specialization/VAKZUKD63XQI"
+        },
+        {
+            "provider": "DeepLearning.AI",
+            "title": "AI For Everyone",
+            "detail": "Instructor: Andrew Ng · AI Strategy, Workflows & Machine Learning Concepts",
+            "period": "August 29, 2026",
+            "credentialId": "51V0PY453Y03",
+            "url": "https://www.coursera.org/account/accomplishments/verify/51V0PY453Y03"
+        },
+        {
+            "provider": "IBM",
+            "title": "IBM RAG and Agentic AI Professional Certificate",
+            "detail": "9-Course Specialization · LangChain, LangGraph, CrewAI, AutoGen, Vector Databases & MCP Agents",
+            "period": "August 18, 2026",
+            "credentialId": "AEL6WABGHRHQ",
+            "url": "https://www.coursera.org/account/accomplishments/professional-cert/AEL6WABGHRHQ"
+        },
+        {
+            "provider": "IBM SkillsBuild × 1M1B",
+            "title": "AI for Sustainability Virtual Internship",
+            "detail": "Responsible AI, RAG concepts & alignment with United Nations SDGs",
+            "period": "December 2025 – January 2026",
+            "credentialId": "a3ae9454-0498-4a57-8106-aa1ee9efb0a0",
+            "url": "https://drive.google.com/file/d/1W-5GE_SlLtwCTtJzvtpi-H6yGqOMekgq/view?usp=drivesdk"
+        },
+        {
+            "provider": "Codio",
+            "title": "Programming in C++: A Hands-on Introduction Specialization",
+            "detail": "Coursera Verified Specialization Certificate",
+            "period": "September 2024",
+            "credentialId": "U3PVDX0RG93J",
+            "url": "https://www.coursera.org/verify/specialization/U3PVDX0RG93J"
+        }
+    ]
+}

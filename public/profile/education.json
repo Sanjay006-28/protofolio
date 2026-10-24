@@ -1,0 +1,31 @@
+{
+    "education": [
+        {
+            "title": "September 2023 – July 2027",
+            "cardTitle": "B.Tech in Computer Science and Engineering",
+            "cardSubtitle": "Alliance College of Engineering and Design, Alliance University · Bengaluru, Karnataka",
+            "cardDetailedText": "CGPA: 8.8",
+            "coursework": [
+                "Data Structures & Algorithms",
+                "Machine Learning & Deep Learning",
+                "Database Management Systems (DBMS)",
+                "Operating Systems",
+                "Computer Networks",
+                "Object-Oriented Programming",
+                "Software Engineering"
+            ]
+        },
+        {
+            "title": "2023",
+            "cardTitle": "Pre-University Course (Science)",
+            "cardSubtitle": "SDC INDP PU College · Kolar, Karnataka",
+            "cardDetailedText": "Score: 88.83%"
+        },
+        {
+            "title": "2021",
+            "cardTitle": "Secondary School Education (SSLC)",
+            "cardSubtitle": "Sri Datta Sai High School · Kolar, Karnataka",
+            "cardDetailedText": "Score: 92.96%"
+        }
+    ]
+}

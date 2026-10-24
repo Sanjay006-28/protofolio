@@ -1,0 +1,159 @@
+/* Skills as a bento: a wide intro tile over a row of category tiles. */
+
+.skills-intro-tile {
+  text-align: left;
+}
+
+.skills-intro-tile p {
+  color: var(--text-muted);
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.skill-category-tile {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.skill-category-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5) var(--space-4);
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: 84px;
+}
+
+.skill-item img {
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
+  transition: transform var(--dur) var(--ease);
+}
+
+.skill-item:hover img {
+  transform: translateY(-4px) scale(1.08);
+}
+
+.skill-item span {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* DSA & LeetCode Showcase Tile */
+.skills-dsa-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 7%, var(--surface)) 0%, var(--surface) 100%);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border));
+  text-align: left;
+}
+
+.skills-dsa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+
+.skills-dsa-title-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.skills-dsa-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.skills-dsa-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--text);
+}
+
+.skills-dsa-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0;
+  margin-top: 2px;
+}
+
+.skills-dsa-btn {
+  font-size: 0.82rem;
+  padding: 0.45rem 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.skills-dsa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.skills-dsa-topic {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.65rem 0.85rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--text);
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+}
+
+.skills-dsa-topic:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface-2));
+}
+
+.skills-dsa-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .skills-dsa-grid {
+    grid-template-columns: 1fr;
+  }
+}

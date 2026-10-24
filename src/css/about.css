@@ -1,0 +1,112 @@
+/* About section styles */
+
+.about-bio-tile {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-6);
+}
+
+.about-bio-header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-3);
+}
+
+.about-bio-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.about-bio-title {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: var(--space-1) 0 0;
+}
+
+.about-bio-content p {
+  color: var(--text);
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: var(--space-4);
+}
+
+.about-bio-content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-bio-content strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.about-facts-tile {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 8%, var(--surface)) 0%, var(--surface) 100%);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border));
+}
+
+.about-facts-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-1);
+}
+
+.about-fact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-2);
+}
+
+.about-fact-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.about-fact-key {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.about-fact-val {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.about-fact-val--highlight {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.about-cta-box {
+  margin-top: auto;
+  padding-top: var(--space-3);
+}
+
+.about-resume-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 0.88rem;
+  padding: 0.65rem 1rem;
+}

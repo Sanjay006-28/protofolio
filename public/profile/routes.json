@@ -1,0 +1,39 @@
+{
+    "sections": [
+        {
+            "component": "About",
+            "path": "/about",
+            "headerTitle": "About"
+        },
+        {
+            "component": "Skills",
+            "path": "/skills",
+            "headerTitle": "Skills"
+        },
+        {
+            "component": "Projects",
+            "path": "/projects",
+            "headerTitle": "Projects"
+        },
+        {
+            "component": "Experience",
+            "path": "/experience",
+            "headerTitle": "Experience"
+        },
+        {
+            "component": "Education",
+            "path": "/education",
+            "headerTitle": "Education"
+        },
+        {
+            "component": "Achievements",
+            "path": "/achievements",
+            "headerTitle": "Achievements & Certifications"
+        },
+        {
+            "component": "Contact",
+            "path": "/contact",
+            "headerTitle": "Get In Touch"
+        }
+    ]
+}

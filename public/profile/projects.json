@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "title": "RazorRecon AI — Financial Reconciliation Platform",
+            "category": "Financial AI · Three-Way Recon",
+            "bodyText": "An AI-powered financial reconciliation platform that reconciles payment records, settlement records, and bank statements while identifying transaction mismatches and exceptions.\n\n**What it does:** Three-way reconciliation across payments, settlements, and bank statements using a Pandas-based deterministic rule engine with six exception categories. Google Gemini powers a settlement Q&A interface with data-grounded responses. SQLite caches reconciliation results, and automated three-sheet Excel reports are generated on demand.\n\n**Reported results (per resume):** 68.3% match rate on test dataset · 100% anomaly detection on injected test cases · 70/70 pytest tests passing.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Sanjay006-28/razorrecon-ai"
+                }
+            ],
+            "tags": [
+                "FastAPI",
+                "Python",
+                "Pandas",
+                "SQLAlchemy",
+                "SQLite",
+                "Google Gemini API",
+                "React",
+                "pytest",
+                "openpyxl"
+            ]
+        },
+        {
+            "title": "AI Resume Screening & Candidate Ranking System",
+            "category": "NLP · Semantic Search & Embeddings",
+            "bodyText": "An AI-powered application that compares resumes with job descriptions using semantic similarity to support candidate screening and ranking.\n\n**What it does:** Processes resume and job description text, computes semantic embeddings using Sentence Transformers, and ranks candidates by similarity score. The backend exposes a FastAPI REST API, and a React frontend provides the interface. An alternative embeddings pipeline using the Hugging Face Inference API is also implemented.",
+            "links": [],
+            "tags": [
+                "Python",
+                "FastAPI",
+                "React",
+                "Sentence Transformers",
+                "Hugging Face",
+                "SQLAlchemy",
+                "SQLite"
+            ]
+        },
+        {
+            "title": "Phishing Detection & Prevention Chrome Extension",
+            "category": "Deep Learning · Cybersecurity & Chrome Ext",
+            "bodyText": "A phishing detection system for URLs and emails, integrated with a Chrome extension for real-time threat detection and user alerts.\n\n**What it does:** Separate URL and email detection pipelines using deep learning models (Conv1D CNN, BiLSTM with Attention). A FastAPI backend serves predictions. The Chrome extension checks active pages and alerts users about detected threats.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Sanjay006-28/phishing-detection-using-chrome-extension"
+                }
+            ],
+            "tags": [
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "FastAPI",
+                "Conv1D CNN",
+                "BiLSTM",
+                "Attention",
+                "Chrome Extension"
+            ]
+        },
+        {
+            "title": "Android Malware Detection",
+            "category": "Machine Learning · Behavioral & SHAP Explainability",
+            "bodyText": "An investigation into Android malware detection using independent static and dynamic behavioral analysis pipelines.\n\n**What it does:** Static analysis examines APK features using machine learning classifiers (Random Forest, XGBoost). Dynamic behavioral analysis models runtime activity using temporal analysis. SHAP values are used for model explainability. The two pipelines are independent.",
+            "links": [],
+            "tags": [
+                "Python",
+                "Random Forest",
+                "XGBoost",
+                "SHAP",
+                "Static Analysis",
+                "Dynamic Analysis"
+            ]
+        }
+    ]
+}

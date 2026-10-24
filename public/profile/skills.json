@@ -1,0 +1,93 @@
+{
+    "intro": "Technologies and tools I work with across AI/ML, backend development, and software engineering.",
+    "skills": [
+        {
+            "title": "Programming Languages",
+            "items": [
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "SQL"
+                }
+            ]
+        },
+        {
+            "title": "AI & Machine Learning",
+            "items": [
+                {
+                    "icon": "images/skills/ml-icon.svg",
+                    "title": "Machine Learning"
+                },
+                {
+                    "icon": "images/skills/genai-icon.svg",
+                    "title": "Generative AI"
+                },
+                {
+                    "icon": "images/skills/rag-icon.svg",
+                    "title": "LLMs & RAG"
+                },
+                {
+                    "icon": "images/skills/pandas-icon.svg",
+                    "title": "Pandas & NumPy"
+                },
+                {
+                    "icon": "images/skills/sklearn-icon.svg",
+                    "title": "scikit-learn"
+                }
+            ]
+        },
+        {
+            "title": "Web & Backend",
+            "items": [
+                {
+                    "icon": "images/skills/fastapi-icon.svg",
+                    "title": "FastAPI"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Node.js"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML & CSS"
+                }
+            ]
+        },
+        {
+            "title": "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git & GitHub"
+                },
+                {
+                    "icon": "images/skills/linux-icon.svg",
+                    "title": "Linux"
+                },
+                {
+                    "icon": "images/skills/android-studio.png",
+                    "title": "Android Studio"
+                },
+                {
+                    "icon": "images/skills/vscode-icon.svg",
+                    "title": "VS Code"
+                }
+            ]
+        }
+    ]
+}
